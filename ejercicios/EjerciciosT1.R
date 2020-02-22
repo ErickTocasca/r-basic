@@ -13,3 +13,21 @@ opBasic = function(a,b){
   print(paste(sprintf("%i : %i = ",b,a),b%/%a))
   print(paste("con resto ",b%%a))
 }
+opBasic(6,4)
+
+bas = function(a,b){
+  print("La suma de los dos números es")
+  print(a+b)
+  print("La resta de los dos números es")
+  print(paste(sprintf("%i - %i = ",a,b),a-b))
+  print(paste(sprintf("%i - %i = ",b,a),b-a))
+  print("El producto de los dos números es")
+  print(a*b)
+  print("Cociente de la división entera es")
+  print(paste(sprintf("%i : %i = ",a,b),a%/%b))
+  print(paste("con resto ",a%%b))
+  print("Cociente de la división entera es")
+  print(paste(sprintf("%i : %i = ",b,a),b%/%a))
+  print(paste("con resto ",b%%a))
+}
+bas(6,4)
